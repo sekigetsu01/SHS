@@ -76,7 +76,6 @@ A,zsh-fast-syntax-highlighting-git,"real-time syntax highlighting in zsh as you 
 ,mediainfo,"displays detailed technical information about audio and video files."
 ,mpv,"minimal but powerful media player supporting a wide range of formats."
 ,awww,"wallpaper setter."
-,swaybg,"to set wallpaper at startup."
 A,swayimg-git,"lightweight image viewer designed for Wayland compositors."
 A,sc-im,"vim-inspired terminal spreadsheet editor."
 A,brave-bin,"The default browser for SHS."
