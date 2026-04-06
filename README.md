@@ -314,14 +314,11 @@ sh refreshvms
 ```
 
 ## Autologin
+
+copy ~/.config/ly/config.ini to /etc/ly/config.ini
+
 ```
-cd /etc/systemd/system/getty.target.wants
-```
-```
-sudo nvim getty@tty1.service
-```
-```
-ExecStart=-/usr/bin/agetty --autologin user --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - ${TERM}
+sudo systemctl enable ly@tty1.service
 ```
 ```
 sudo systemctl restart getty@tty1.service
