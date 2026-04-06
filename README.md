@@ -321,5 +321,5 @@ copy ~/.config/ly/config.ini to /etc/ly/config.ini
 sudo systemctl enable ly@tty1.service
 ```
 ```
-sudo systemctl restart getty@tty1.service
+sudo systemctl restart ly@tty1.service
 ```
